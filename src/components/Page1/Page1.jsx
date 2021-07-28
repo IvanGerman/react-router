@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Page1.css";
 
 const Page1 = () => {
@@ -6,7 +7,7 @@ const Page1 = () => {
     <div>
       <div className="page1">Page1
         <br></br>
-        <a href="/page2">to Page2</a>
+        <NavLink to="/page2"><div class="navlink-div" id="navlink-div">to Page2</div></NavLink>
       </div>
     </div>
   )
